@@ -4,9 +4,11 @@ import './index.scss';
 
 const Layout = () => {
     return (
+        // General page layout is setup
         <div className="App">
-            <Sidebar />
-            <div className='page'>
+            <Sidebar /> // Sidebar html is loaded in
+            // Space for main page content is drawn out
+            <div className='page'> 
                 <span className='tags top-tags'>&lt;body&gt;</span>
             </div>
 

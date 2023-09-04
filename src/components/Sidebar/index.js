@@ -13,6 +13,13 @@ const Sidebar = () => (
             <img className="sub-logo" src={LogoSubtitle} alt="logoSub"/>
         </Link>
         <nav>
+            {/* 
+                NavLink is used like a <a> (anchor tag) and is used to make links in a similar same way.
+                It can detect when the user is on the page that it is linked to and activeclassname is set to active if
+                a user is on the page.
+
+                NavLink and Link are the same other than the fact that styling is added to the active element
+            */}
             <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
             </NavLink>
