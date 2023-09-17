@@ -3,6 +3,7 @@ import LogoTitle from'../../assets/images/logo-s.png'
 import './index.scss'; 
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import Logo from './Logo';
 
 const Home = () => {
 
@@ -39,6 +40,7 @@ const Home = () => {
                 <h2>Software Developer / Expert 1/ Expert 2 etc</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     );
 }
